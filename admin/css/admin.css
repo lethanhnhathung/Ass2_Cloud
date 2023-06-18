@@ -1,0 +1,176 @@
+@charset "utf-8";
+body{
+	background-color:#CCCCCC;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000;
+	position: relative;
+}
+.container{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vw;
+	background-color: #f4eade;
+}
+.form-admin-home{
+	margin-top: 20px;
+}
+h3{
+	color:#FFFFFF;
+}
+
+a{
+	color:#FFF;
+	text-decoration:none;
+}
+
+a:hover{
+	color:#FFF;
+}
+
+img{
+	border:none;
+}
+
+.copyright{
+	text-align:right;
+	font-size:11px;
+	color:#333;
+}
+
+.displaytable tr td{
+	border:solid #666666 1px;
+}
+.pagenumber{
+	margin-top: 20px;
+}
+.pagenumber a,
+.pagenumber font{
+	width: 15px;
+	height: 15px;
+	line-height: 15px;
+	background-color: #ed8c72;
+	border-radius: 50%;
+	text-align: center;
+	padding: 5px;
+}
+.titletext{
+	color:#FFFFFF;
+	font-size:13px;
+}
+
+.frame {
+	margin:0 auto;
+	width:1000px;
+}
+
+.menupanel{
+	float:left;
+	width:150px;
+	margin-top: -10px;
+}
+
+.menupanel .btnbg{
+	height:40px;
+	margin: 10px 6px 10px 0;
+	border:solid 1px #FFFFFF;
+	background-color:#ed8c72;
+	border-radius: 20px;
+	transition: .2s linear;
+
+	border: 1px solid #ed8c72;
+}
+.menupanel .btnbg i{
+	color: #433014;
+	width: 0px;
+	transition: .2s linear;
+	opacity: 0;
+}
+.menupanel .btnbg:hover{
+	background-color: #f4eade;
+	color: #433014;
+	transition: .2s linear;
+}
+.menupanel .btnbg:hover i{
+	width: 20px;
+	opacity: 1;
+	transition: .2s linear;
+}
+.menupanel .btnbg:hover	a{
+	color: #433014;
+}
+.menupanel .btnbg .text{
+	margin-left:5px;
+	margin-top:12px;
+	text-align: center;
+}
+
+
+.mainbody{
+	float:left;
+	background-color:#9bc4dc;
+	width:850px;
+}
+
+.content{
+	margin-left:10px;
+	margin-top:10px;
+}
+
+.space{
+	height:20px;
+}
+
+.login{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 200px;
+}
+.box{
+	text-align: center;
+	padding: 10px 25px;
+
+}
+.logo-admin{
+	display: flex;
+}
+.logo-admin h1{
+	color: #333;
+	font-style: italic; 
+	font-family: 'Pacifico', cursive;
+}
+.box .logo-admin img{
+	border-radius: 50%;
+	margin: 0 10px;
+}
+.input-form-admin{
+	border: none;
+	border-bottom: 1px solid #ed8c72;
+	padding: 10px 15px;
+	outline: none;
+	border-radius: 20px;
+}
+.box form tr td {
+	width: max-content;
+	padding: 10px 15px;
+}
+.btn-admin{
+	background-color: #ed8c72;
+	padding: 10px 15px;
+	border: none;
+	color: #fff;
+	border-radius: 30px;
+	cursor: pointer;
+	transition: .2s linear;
+	border: #ed8c72 1px solid;
+
+}
+.btn-admin:hover{
+	transition: .2s linear;
+	background-color: #f4eade;
+	color: #433014;
+	border: #ed8c72 1px solid;
+}
